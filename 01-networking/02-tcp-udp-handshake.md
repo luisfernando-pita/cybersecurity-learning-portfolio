@@ -10,8 +10,6 @@ Comprender las diferencias entre TCP y UDP, estudiar el establecimiento de una c
 
 TCP (Transmission Control Protocol) es un protocolo de transporte orientado a conexión. Proporciona mecanismos para entregar los datos de manera fiable y ordenada, utilizando confirmaciones, números de secuencia y retransmisiones cuando corresponde.
 
-TCP no cifra los datos por sí mismo.
-
 ### UDP
 
 UDP (User Datagram Protocol) es un protocolo de transporte que envía datagramas sin establecer una conexión mediante el handshake de TCP. No garantiza por sí mismo la entrega ni el orden de los datos.
