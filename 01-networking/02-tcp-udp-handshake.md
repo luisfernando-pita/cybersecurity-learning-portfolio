@@ -23,7 +23,6 @@ La elección entre TCP y UDP depende de las necesidades de la aplicación.
 | Handshake de conexión | Sí | No como el de TCP |
 | Garantía de entrega | Ofrece mecanismos de entrega fiable | No la garantiza por sí mismo |
 | Orden de los datos | Ofrece entrega ordenada | No la garantiza por sí mismo |
-| Cifrado integrado | No | No |
 | Ejemplo de uso | Conexiones HTTP sobre TCP | DNS tradicional suele utilizar UDP |
 
 Nota: DNS también puede utilizar TCP, y otras aplicaciones pueden emplear protocolos adicionales para proporcionar fiabilidad o cifrado.
