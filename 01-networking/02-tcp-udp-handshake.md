@@ -110,8 +110,3 @@ La dirección `127.0.0.1` corresponde a loopback, por lo que la prueba se realiz
 
 Esta práctica permitió relacionar la teoría del protocolo TCP con el tráfico observado en Kali Linux. Se identificó el Three-Way Handshake y se comprobó que el servidor local respondía a una petición HTTP.
 
-La siguiente actividad será analizar una captura mediante Wireshark para inspeccionar los flags TCP, las direcciones, los puertos y los detalles de los paquetes.
-
-## 7. Alcance y seguridad
-
-El servidor se vinculó a `127.0.0.1` y se utilizó un entorno de laboratorio local. Las capturas publicadas deben revisarse para evitar exponer información personal, archivos sensibles o datos de otras redes.
