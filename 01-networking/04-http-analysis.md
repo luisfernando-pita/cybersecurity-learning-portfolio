@@ -55,7 +55,11 @@ curl -I https://example.com
 
 En Wireshark, la captura HTTP permitió identificar una solicitud con el método `HEAD` y una respuesta con código `200`.
 
+![Solicitud HTTP](evidence/02-http-request-wireshark.png)
+
 En la captura HTTPS se identificaron direcciones IP, el puerto 443, tráfico TLS y mensajes del handshake como `Client Hello` y `Server Hello`. También se observaron extensiones TLS.
+
+![Solicitud y respuesta HTTPS](evidence/03-https-request-response-wireshark.png)
 
 ## Conceptos aprendidos
 
@@ -77,9 +81,6 @@ El encabezado `User-Agent` puede aportar contexto, pero puede falsificarse y no 
 
 En una captura HTTPS convencional, los encabezados HTTP y el contenido de la aplicación están cifrados durante el transporte. Sin embargo, los metadatos de red y ciertos elementos de la negociación TLS pueden seguir siendo observables.
 
-## Evidencias
-
-Las capturas de pantalla correspondientes a las prácticas se encuentran en la carpeta `evidence/` de este módulo.
 
 ## Conclusión
 
