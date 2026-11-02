@@ -23,6 +23,8 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Posteriormente, se realizó una solicitud con `curl` y se capturó el tráfico mediante Wireshark.
 
+![Solicitud HTTP](evidence/01-http-request.png)
+
 ### Resultados observados
 
 - Método HTTP: `GET`.
