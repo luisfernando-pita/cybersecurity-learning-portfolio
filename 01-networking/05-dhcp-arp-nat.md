@@ -107,7 +107,7 @@ ping -c 1 192.168.192.2
 
 Posteriormente, se utilizó Wireshark para capturar y analizar los paquetes ARP.
 
-![Solicitud ARP](evidence/03-arp-request.png)
+![Solicitud ARP](evidence/03-arp-request-reply.png)
 
 Información observada durante la práctica:
 
