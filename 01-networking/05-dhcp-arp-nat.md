@@ -46,6 +46,9 @@ DHCP utiliza UDP en los siguientes puertos:
 
 Se realizó una captura de tráfico DHCP utilizando Wireshark mientras se desconectaba y reconectaba la conexión de red de Kali Linux.
 
+![Solicitud DHCP](evidence/01-dhcp-request.png)
+![Solicitud DHCP](evidence/02-dhcp-ack.png)
+
 Durante la captura se identificaron los siguientes mensajes:
 
 - DHCP Request (3).
@@ -104,6 +107,8 @@ ping -c 1 192.168.192.2
 
 Posteriormente, se utilizó Wireshark para capturar y analizar los paquetes ARP.
 
+![Solicitud ARP](evidence/03-arp-request.png)
+
 Información observada durante la práctica:
 
 | Parámetro | Resultado |
@@ -160,15 +165,15 @@ ip -4 addr show eth0
 ip route
 ```
 
-```bash
-ss -tun
-```
+![Bash NAT](evidence/04-nat-network.png)
 
 Posteriormente, se consultó la dirección IPv4 pública observada desde Internet utilizando:
 
 ```bash
 curl -4 https://ifconfig.me
 ```
+
+![Bash NAT](evidence/05-nat-public-ip.png)
 
 Resultados obtenidos:
 
